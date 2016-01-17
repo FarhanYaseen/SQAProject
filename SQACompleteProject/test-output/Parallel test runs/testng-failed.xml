@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test runs]" parallel="tests">
+  <parameter name="browser" value="safari"/>
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="signUpMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="signUpMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Internet Explorer Test(failed)" parallel="tests">
+    <parameter name="browser" value="InternetExplorer"/>
+    <classes>
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="signUpMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Internet Explorer Test(failed) -->
+  <test name="Safari Test(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="signUpMobileArenaTestCase"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+    </classes>
+  </test> <!-- Safari Test(failed) -->
+</suite> <!-- Failed suite [Parallel test runs] -->

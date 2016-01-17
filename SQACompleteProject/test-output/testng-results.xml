@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test runs" duration-ms="264190" started-at="2016-01-16T16:42:50Z" finished-at="2016-01-16T16:47:14Z">
+    <groups>
+    </groups>
+    <test name="Chrome Test" duration-ms="164607" started-at="2016-01-16T16:42:50Z" finished-at="2016-01-16T16:45:34Z">
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@721bdf30]" name="setUp" is-config="true" duration-ms="2269" started-at="2016-01-16T21:42:50Z" finished-at="2016-01-16T21:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpMobileArenaTestCase()[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@721bdf30]" name="signUpMobileArenaTestCase" duration-ms="162302" started-at="2016-01-16T21:42:52Z" finished-at="2016-01-16T21:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpMobileArenaTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@721bdf30]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-16T21:45:34Z" finished-at="2016-01-16T21:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+    </test> <!-- Chrome Test -->
+    <test name="Internet Explorer Test" duration-ms="26120" started-at="2016-01-16T16:45:34Z" finished-at="2016-01-16T16:46:00Z">
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@3e9f3364]" name="setUp" is-config="true" duration-ms="2298" started-at="2016-01-16T21:45:34Z" finished-at="2016-01-16T21:45:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InternetExplorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpMobileArenaTestCase()[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@3e9f3364]" name="signUpMobileArenaTestCase" duration-ms="23817" started-at="2016-01-16T21:45:37Z" finished-at="2016-01-16T21:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpMobileArenaTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@3e9f3364]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-16T21:46:00Z" finished-at="2016-01-16T21:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+    </test> <!-- Internet Explorer Test -->
+    <test name="Firefox Test" duration-ms="194821" started-at="2016-01-16T16:42:50Z" finished-at="2016-01-16T16:46:05Z">
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@15c3cd93]" name="setUp" is-config="true" duration-ms="24472" started-at="2016-01-16T21:42:50Z" finished-at="2016-01-16T21:43:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpMobileArenaTestCase()[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@15c3cd93]" name="signUpMobileArenaTestCase" duration-ms="170336" started-at="2016-01-16T21:43:14Z" finished-at="2016-01-16T21:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpMobileArenaTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@15c3cd93]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-01-16T21:46:05Z" finished-at="2016-01-16T21:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+    </test> <!-- Firefox Test -->
+    <test name="Safari Test" duration-ms="73430" started-at="2016-01-16T16:46:00Z" finished-at="2016-01-16T16:47:14Z">
+      <class name="com.testcases.SignUpMobileArenaTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@bb02e3]" name="setUp" is-config="true" duration-ms="1036" started-at="2016-01-16T21:46:00Z" finished-at="2016-01-16T21:46:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpMobileArenaTestCase()[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@bb02e3]" name="signUpMobileArenaTestCase" duration-ms="72390" started-at="2016-01-16T21:46:02Z" finished-at="2016-01-16T21:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpMobileArenaTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.SignUpMobileArenaTestCase@bb02e3]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-01-16T21:47:14Z" finished-at="2016-01-16T21:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcases.SignUpMobileArenaTestCase -->
+    </test> <!-- Safari Test -->
+  </suite> <!-- Parallel test runs -->
+</testng-results>
